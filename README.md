@@ -131,7 +131,7 @@
   <h1>나를 소개하는 한 페이지.</h1>
   
   <!-- 4. 한 줄 소개 -->
-  <p class="subtitle">조교와 알바를 하며 사람을 돕는 일을 좋아하는, 지금 AI를 배우는 사람.</p>
+  <p class="subtitle"> SKT와 AI를 배우는 사람.</p>
 
   <!-- 강점/취향 카드 -->
   <div class="first-screen">
@@ -195,8 +195,8 @@
     <h2>연락처</h2>
     <div class="contact-content">
       <p>
-        GitHub: <a href="https://github.com/[네아이디]">github.com/[네아이디]</a><br>
-        Email: <a href="mailto:[네 이메일]">[네 이메일]</a>
+        GitHub: <a href="https://github.com/[네아이디]">github.com/[khn0916]</a><br>
+        Email: <a href="mailto:[네 이메일]">[vorysi@naver.com]</a>
       </p>
     </div>
   </div>

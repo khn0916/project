@@ -1,5 +1,3 @@
-# project
-과제1
 <html lang="ko">
 <head>
   <meta charset="utf-8">

@@ -130,7 +130,7 @@
   <h1>나를 소개하는 한 페이지</h1>
   
   <!-- 4. 한 줄 소개 -->
-  <p class="subtitle"> AI와 친해지고싶은 사람</p>
+  <p class="subtitle"> AI와 친해지고싶은 김하늘입니다.</p>
 
   <!-- 강점/취향 카드 -->
   <div class="first-screen">

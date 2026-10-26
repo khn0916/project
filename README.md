@@ -14,7 +14,7 @@
       background-color: #e9e5dd; /* 요청한 배경색 */
     }
     
-    /* 1. 상단 로고(project) 변경 및 색상 적용 */
+    /* 1. 상단 로고(project01) 변경 및 색상 적용 */
     .logo {
       font-size: 1.5rem;
       font-weight: bold;

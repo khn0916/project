@@ -1,4 +1,3 @@
-[html02.txt](https://github.com/user-attachments/files/33949832/html02.txt)
 <!DOCTYPE html>
 <html lang="ko">
 <head>

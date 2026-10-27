@@ -76,6 +76,8 @@
       font-size: 1.1rem;
       color: #111111;
     }
+     white-space: nowrap;
+     word-break: keep-all;
     .sar {
       font-size: 0.95rem;
       color: #222222;

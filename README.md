@@ -13,7 +13,7 @@
       color: #222222; 
       background-color: #e9e5dd; /* 요청한 배경색 */
     }
-    
+  
     /* 1. 상단 로고(project_01) 변경 및 색상 적용 */
     .logo {
       font-size: 1.5rem;
@@ -75,9 +75,9 @@
       margin-top: 0;
       font-size: 1.1rem;
       color: #111111;
+      white-space: nowrap;
+      word-break: keep-all;
     }
-     white-space: nowrap;
-     word-break: keep-all;
     .sar {
       font-size: 0.95rem;
       color: #222222;

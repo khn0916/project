@@ -1,3 +1,5 @@
+html
+<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="utf-8">
@@ -122,7 +124,6 @@
   </style>
 </head>
 <body>
-
   <!-- 1. 상단 로고 변경 -->
   <div class="logo">
     <span class="logo-skt">SKT</span> <span class="logo-aleph">ALEPH K-뉴딜 아카데미</span>

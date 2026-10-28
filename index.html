@@ -253,16 +253,50 @@ html
     [되고 싶은 것 / 해보고 싶은 것을 한 줄로]
   </p>
 
-  <!-- 6. '연락' -> '연락처', 구분선 추가, 흰칸 삭제, 폰트 축소 -->
-  <div class="contact-section">
-    <h2>연락처</h2>
-    <div class="contact-content">
-      <p>
-        GitHub: <a href="https://github.com/[네아이디]">github.com/[khn0916]</a><br>
-        Email: <a href="mailto:[네 이메일]">[vorysi@naver.com]</a>
-      </p>
+  <!-- 6. 연락처 (비밀 상자로 변경) -->
+  <div class="secret-box" id="contactBox">
+    <!-- 덮개(가림막) -->
+    <div class="overlay" id="contactOverlay">
+      <p style="margin-bottom: 15px; font-weight: bold;">연락처가 숨겨져 있어요.</p>
+      <!-- 이 버튼이 가림막을 열고 닫는 열쇠 -->
+      <button id="toggleBtn" aria-expanded="false" aria-controls="contactContent">연락처 보기</button>
+    </div>
+
+    <!-- 실제 내용 (처음엔 숨겨짐) -->
+    <div class="secret-content" id="contactContent">
+      <h2 style="margin-top: 0; border-bottom: none;">연락처</h2>
+      <div class="contact-content">
+        <p>
+          GitHub: <a href="https://github.com/[네아이디]">github.com/[khn0916]</a><br>
+          Email: <a href="mailto:[네 이메일]">[vorysi@naver.com]</a>
+        </p>
+      </div>
     </div>
   </div>
+
+  <!-- 가림막을 열고 닫는 마법 (JavaScript) -->
+  <script>
+    const toggleBtn = document.getElementById('toggleBtn');
+    const overlay = document.getElementById('contactOverlay');
+    const contactBox = document.getElementById('contactBox');
+
+    toggleBtn.addEventListener('click', function() {
+      // 'hidden' 클래스가 있으면 빼고, 없으면 더해라 (토글)
+      overlay.classList.toggle('hidden');
+      
+      // 'open' 클래스도 토글해서 내용이 보이게/숨기게 함
+      contactBox.classList.toggle('open');
+
+      // 버튼 글자 바꾸기 및 접근성(aria) 상태 업데이트
+      if (overlay.classList.contains('hidden')) {
+        toggleBtn.textContent = '연락처 닫기';
+        toggleBtn.setAttribute('aria-expanded', 'true'); 
+      } else {
+        toggleBtn.textContent = '연락처 보기';
+        toggleBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
 
 </body>
 </html>
